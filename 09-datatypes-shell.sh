@@ -1,0 +1,8 @@
+#!/bin/bash
+NUMBER1=200
+NUMBER2=300
+NUMBER3="anjana"
+
+SUM=$(($NUMBER1+$NUMBER2+$NUMBER3))
+
+echo "$SUM"

@@ -1,6 +1,6 @@
 #!/bin/bash
 USER_ID=$(id -u)
- if [ $USER_ID -ne 0]; then
+ if [ $USER_ID -ne 0 ]; then
    echo "To run this script need to be a root user"
    exit 1 #if we dont give exit code shell will continue for next step even if condition fails in shell exit 0 means sucess other than that failure
  fi

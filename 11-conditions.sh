@@ -1,5 +1,5 @@
 #!/bin/bash
-NUMBER1=$1 #inpt from CLI
+NUMBER=$1 #inpt from CLI
 if [ $NUMBER -lt 10 ]; then
    echo "Given number $NUMBER is less than 10"
    elif [ $NUMBER -eq 10 ]; then
